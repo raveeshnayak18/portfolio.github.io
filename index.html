@@ -3,34 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Design and Analysis of Algorithms - Learning Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Hello, I'm Raveesh 👋</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
-    </header>
-
-    <section>
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><strong>Project 1</strong>: A short description of your project1.</li>
-            <li><strong>Project 2</strong>: A short description of another project2.</li>
-        </ul>
-
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, JavaScript</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Development (React.js, Node.js)</li>
-        </ul>
-
+        <p>Welcome to my learning portfolio for <strong>Design and Analysis of Algorithms</strong>.</p>
         <h2>🌐 Find Me Online</h2>
         <ul>
             <li><a href="https://github.com/raveeshnayak18" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/raveesh-nayak-55187a297/" target="_blank">LinkedIn</a></li>
         </ul>
 
         <h2>Portfolio Topic</h2>
@@ -39,25 +23,158 @@
             <dd>Algorithmic Problem Solving</dd>
 
             <dt>Course Code</dt>
-            <dd>Course Code Placeholder</dd>
+            <dd>24ECSP206</dd>
 
             <dt>Name</dt>
-            <dd>Raveesh Praveer Nayak</dd>
+            <dd>Raveesh P Nayak</dd>
 
             <dt>SRN</dt>
             <dd>01FE23BCS295</dd>
 
             <dt>Course Instructor</dt>
-            <dd>Mallikarjun Akki</dd>
+            <dd>Sir Mallikarjun Akki</dd>
 
             <dt>University</dt>
             <dd>KLE Technological University</dd>
 
             <dt>Portfolio Topic/Domain</dt>
-            <dd>Google</dd>
+            <dd>Smart Parking Management System</dd>
         </dl>
+    </header>
 
-        <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
+    <!-- Navigation Section -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">📘 Home Page</a></li>
+            <li><a href="#project">🛠 Course Project</a></li>
+            <li><a href="#learning">📚 Learning Reflections</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>📘 Home Page – Introduction</h2>
+        <p><strong>What is the course about?</strong></p>
+        <p>This course delves into the principles of algorithm design and analysis, focusing on efficiency, optimization, and real-world problem-solving.</p>
+
+        <p><strong>What kind of data structures and algorithms have you studied?</strong></p>
+        <ul>
+            <li>Basic Data Structures: Arrays, Stacks, Queues</li>
+            <li>Advanced Data Structures: Trees (BST, AVL, 2-3 Tree), Heaps, Graphs, Hash Tables</li>
+            <li>Algorithms: Sorting (Quick, Merge, Heap), Searching, Graph Algorithms (Dijkstra, Kruskal, Prim)</li>
+        </ul>
+
+        <p><strong>How do you connect the course with real-time applications?</strong></p>
+        <p>The algorithms and data structures studied have applications in various domains, such as software development, AI systems, and optimization problems like smart parking management, where data structures ensure efficiency and scalability.</p>
     </section>
-</body>
-</html>
+
+    <!-- Project Section -->
+    <section id="project">
+        <h2>🛠 Course Project Introduction</h2>
+        <p><strong>Problem Definition:</strong> Smart Parking Management System.</p>
+        <p><strong>Problem Space:</strong> The project addresses challenges like traffic congestion, inefficient parking allocation, and environmental concerns. These issues were identified through research into urban planning and smart city initiatives.</p>
+
+        <p><strong>White Paper Findings:</strong> We analyzed city designs and smart parking solutions to identify business cases, focusing on IoT integration and user convenience. The findings emphasized the need for real-time data collection, analytics, and efficient parking allocation.</p>
+
+        <p><strong>Objectives of our Project:</strong></p>
+        <ul>
+            <li> Real-time Parking Spot Allocation</li>
+            <li> Traffic Flow Optimization</li>
+            <li> User Payment Integration</li>
+            
+        </ul>
+    </section>
+
+    <!-- Learning Reflections Section -->
+    <section id="learning">
+        <h2>📚 Course Learning Reflections</h2>
+
+        <h3>Data Structures and Algorithms Studied</h3>
+        <article>
+            <h4>1. Binary Search Tree (BST)</h4>
+            <p>A binary search tree is a hierarchical data structure where nodes are arranged so that the left subtree contains smaller elements and the right subtree contains larger elements.</p>
+            <ul>
+                <li>Visualizing tree structures and their dynamic updates during insertion and deletion.</li>
+                <li>Implementing self-balancing BSTs (e.g., AVL Trees) to maintain efficiency.</li>
+                <li>Handling edge cases like skewed trees where efficiency degrades to O(n).</li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>2. DFS and BFS (Graph Traversals)</h4>
+            <p>DFS explores nodes as deep as possible before backtracking, while BFS explores nodes level by level.</p>
+            <ul>
+                <li>Applying BFS for shortest path problems in unweighted graphs and adapting it for real-world scenarios like traffic routing.</li>
+                <li>Handling memory issues when using BFS for large graphs with high branching factors.</li>
+                <li>Understanding how DFS is used in topological sorting and other advanced graph algorithms.</li>
+            </ul>
+            <p><strong>Use Cases:</strong></p>
+            <ul>
+                <li>Use BFS for shortest path problems or scenarios requiring exploration level by level.</li>
+                <li>Use DFS for backtracking problems (e.g., solving mazes) or detecting cycles in graphs.</li>
+                <li>Example: BFS can be used in social network applications to find the shortest path between two users.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>3. Heap</h4>
+            <p>A heap is a binary tree-based structure that maintains the heap property, where the root is the minimum (min-heap) or maximum (max-heap) element.</p>
+            <ul>
+                <li>Visualizing heap construction using array representation can be difficult.</li>
+                <li>Implementing heaps manually, especially for dynamic insertions and deletions.</li>
+                <li>Understanding heapify operations and their time complexities (O(log n)).</li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>4. Sorting Algorithms</h4>
+            <p>Sorting involves arranging data in a particular order (ascending or descending). Algorithms like quicksort, mergesort, and bubble sort are common.</p>
+            <ul>
+                <li>Memorizing the time complexities and stability of different algorithms.</li>
+                <li>Understanding recursive approaches like mergesort and quicksort.</li>
+                <li>Debugging sorting implementations, especially in-place algorithms like quicksort.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>5. Pattern Searching</h4>
+            <p>Algorithms like KMP and Rabin-Karp search for substrings efficiently within larger strings.</p>
+            <ul>
+                <li>Grasping advanced preprocessing techniques like partial match tables in KMP.</li>
+                <li>Debugging pattern-matching algorithms with overlapping substrings.</li>
+                <li>Understanding the trade-offs between naive and optimized approaches.</li>
+            </ul>
+            <p><strong>Use Cases:</strong></p>
+            <ul>
+                <li>Use naive algorithms for small datasets.</li>
+                <li>Use KMP or Rabin-Karp for larger datasets requiring preprocessing.</li>
+                <li>Example: Search engines use pattern searching to index and retrieve relevant documents.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>6. Graph Algorithms</h4>
+            <p>Algorithms for solving graph problems include Dijkstra’s (shortest path), Kruskal’s (MST), etc.</p>
+            <ul>
+                <li>Understanding graph representations (adjacency matrix vs. adjacency list).</li>
+                <li>Debugging infinite loops or incorrect results due to unhandled edge cases.</li>
+                <li>Implementing complex algorithms like Dijkstra’s with priority queues.</li>
+            </ul>
+            <p><strong>Applications:</strong></p>
+            <ul>
+                <li>Scaling graph algorithms to handle large datasets in social networks or transport systems.</li>
+                <li>Adapting algorithms to work on dynamic graphs where edges or weights change frequently.</li>
+                <li>Optimizing for distributed graph processing (e.g., in Google Maps).</li>
+            </ul>
+            <p><strong>Use Cases:</strong></p>
+            <ul>
+                <li>Use Dijkstra’s for weighted, single-source shortest paths; use BFS for unweighted graphs.</li>
+                <li>Optimize MST algorithms based on edge density (Kruskal’s for sparse, Prim’s for dense graphs).</li>
+                <li>Example: Dijkstra’s algorithm is used in GPS navigation systems for route optimization.</li>
+            </ul>
+        </article>
+    </section>
+
+    <footer>
+        
+ 
