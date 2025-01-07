@@ -102,6 +102,37 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    justify-content: center; 
+    gap: 8px; 
+    list-style: none; 
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    color: #4CAF50; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #81c784; 
+    transform: translateY(-3px);
+}
+
+
 /* Definition List */
 dl {
     text-align: left;
@@ -167,27 +198,22 @@ footer {
     color: #777;
 }
 
-.autoShow{
+.autoShow {
     animation: autoShowAnimation both;
     animation-timeline: view(70% 5%);
 }
 
-.nav-links{
-    width: 50vw;
-    display: flex;
-    justify-content: space-around;
-}
-
-@keyframes autoShowAnimation{
-    from{
+@keyframes autoShowAnimation {
+    from {
         opacity: 0;
         transform: translateY(200px) scale(0.3);
     }
-    to{
+    to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     section {
