@@ -106,7 +106,7 @@ a:hover {
 .nav-links {
     display: flex;
     justify-content: center; 
-    gap: 8px; 
+    gap: 5px; 
     list-style: none; 
     padding: 0;
     margin: 20px 0;
